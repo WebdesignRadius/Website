@@ -114,6 +114,8 @@ body {
 
 .nav-container {
     background-color: #000;
+    animation-name:slideInDown;
+    animation-delay:1s;
 }
 
 nav {
@@ -127,6 +129,7 @@ nav {
     justify-content: space-between;
     align-items:center;
     padding:15px 0;
+
 }
 
 nav a {
@@ -138,18 +141,31 @@ nav a {
     color:#fff;   
 }
 
+nav a:hover {
+    background-color: #fff;
+    color:#000;
+    transition:0.8s;
+}
+
 .container {
     margin: 0 auto;
     max-width: 75%;
     text-align:center;
+    animation-name:fadeInUp;
+    animation-delay:0.2s;
 }
 
 header {
     margin-top:80px;
+    border:solid;
 }
 
 header h1 {
     font-size: 55px;
+}
+
+.project-title {
+    font-size: 40px;
 }
 
 .projects {
