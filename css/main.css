@@ -144,7 +144,7 @@ nav a {
 nav a:hover {
     background-color: #fff;
     color:#000;
-    transition:0.8s;
+    transition:1s;
 }
 
 .container {
@@ -158,6 +158,12 @@ nav a:hover {
 header {
     margin-top:80px;
     border:solid;
+}
+
+header:hover {
+    background-color: #000;
+    color:#fff;
+    transition:1s;
 }
 
 header h1 {
