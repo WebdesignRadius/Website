@@ -98,12 +98,59 @@ textarea {
    ========================================================================== */
 
 
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('../fonts/CaviarDreams.woff2') format('woff2'),
+        url('../fonts/CaviarDreams.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family:Caviar Dreams;
+}
 
 
 
+.nav-container {
+    background-color: #000;
+}
 
+nav {
+    max-width:75%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:15px 0;
+}
 
+nav a {
+    text-decoration:none;
+    font-size:18px;
+    padding: 5px 15px;
+    border-radius:10px;
+    background-color: #888;
+    color:#fff;   
+}
 
+.container {
+    margin: 0 auto;
+    max-width: 75%;
+    text-align:center;
+}
+
+header {
+    margin-top:80px;
+}
+
+header h1 {
+    font-size: 55px;
+}
 
 
 
